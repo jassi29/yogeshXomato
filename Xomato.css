@@ -1,0 +1,132 @@
+body{
+    margin:auto;
+}
+
+/*------------------------Header Style----------------------------------------*/
+header {
+    border: solid red;
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    
+
+}
+/*------------------------Header Logo Style----------------------------------------*/
+.pageLogo >img{
+   
+    width: 15%;
+    height: 75px;
+    float: left;
+    
+}
+/*------------------------Social Icon Logo Style----------------------------------------*/
+.socialIcon{
+    float: right;
+    text-decoration: none;
+    margin:23px 16px;
+
+}
+
+
+
+/*------------------------Search item Style----------------------------------------*/
+.search {
+    background-image:url(Images/searchSection/img3.jpg) ;
+    border: solid rgb(135, 56, 7);
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+
+
+}
+/*------------------------search background image Logo Style----------------------------------------*/
+.search-header{
+    width: 59%;
+    height: 400px;
+    float: right;
+    border: solid red;
+    
+}
+
+/*--Search item layer button--*/
+.buttonSearch{
+    width: 40%;
+    height: 400px;
+    float: left;
+    border: solid red;
+    background-color: #eed6ba9c;
+    
+}
+/*--Button hover card--*/
+.container {
+     
+    width: 40%;
+    float: left;
+    height: 400px;
+  }
+      
+  .overlay {
+      position: relative;
+       background-color: #eed6ba9c;
+      overflow: hidden;
+      width: 0;
+      height: 400px;
+      transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    width: 100%;
+    height: 400px;
+}
+  
+/*--Button hover card End --*/
+
+/*--Button and Input Style --*/
+.search-header-text{
+    display: inline-block;
+    width: 100%;
+    margin-top: 33%;
+    height:50px;
+}
+
+.inputText{
+    width: 22%;
+    float: left;
+    margin-left: 25%;
+    size: 0px;
+
+}
+.search-input{
+    width: 22%;
+    float: left;
+}
+.seach-button{
+    width: 22%;
+    float: left;
+}
+input{
+    size: 0px;
+}
+
+
+
+
+/*------------------------Menu Option Style----------------------------------------*/
+.MenuOption {
+    border: solid rgb(106, 4, 87);
+    width: 100%;
+    height: 350px;
+
+}
+/*------------------------footer Style----------------------------------------*/
+footer {
+    border: solid rgb(30, 12, 98);
+    width: 100%;
+    height: 75px;
+
+}
+
+.footer-copyright{
+    text-align: center;
+}
