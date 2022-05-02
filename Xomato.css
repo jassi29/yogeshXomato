@@ -4,12 +4,18 @@ body{
 
 /*------------------------Header Style----------------------------------------*/
 header {
-    border: solid red;
+  
     width: 100%;
     height: 75px;
     background-color: white;
+    position: fixed;
+    z-index: 1;
     
 
+}
+.logoLink{
+    width: 0%;
+    text-decoration: none;
 }
 /*------------------------Header Logo Style----------------------------------------*/
 .pageLogo >img{
@@ -31,13 +37,12 @@ header {
 
 /*------------------------Search item Style----------------------------------------*/
 .search {
-    background-image:url(Images/searchSection/img3.jpg) ;
-    border: solid rgb(135, 56, 7);
+    background-image:url(Images/searchSection/img3.jpg)  ;
     width: 100%;
     height: 400px;
     display: inline-block;
     background-size: cover;
-
+    padding-top: 76px;
 
 }
 /*------------------------search background image Logo Style----------------------------------------*/
@@ -45,7 +50,7 @@ header {
     width: 59%;
     height: 400px;
     float: right;
-    border: solid red;
+   
     
 }
 
@@ -54,7 +59,6 @@ header {
     width: 40%;
     height: 400px;
     float: left;
-    border: solid red;
     background-color: #eed6ba9c;
     
 }
@@ -79,6 +83,19 @@ header {
     width: 100%;
     height: 400px;
 }
+/*--APP ICON APPLE AND ANDROID STYLE--*/
+.App-icon{
+    display: inline-flex;
+    margin-left: 162px;
+    margin-top: 261px;
+}
+.andoid{
+    margin-left: 15px;
+}
+.Apple{
+    margin-left: 88px;
+}
+
   
 /*--Button hover card End --*/
 
@@ -86,14 +103,14 @@ header {
 .search-header-text{
     display: inline-block;
     width: 100%;
-    margin-top: 33%;
+    padding-top: 264px;
     height:50px;
 }
 
 .inputText{
     width: 22%;
     float: left;
-    margin-left: 25%;
+    margin-left: 5%;
     size: 0px;
 
 }
@@ -105,9 +122,7 @@ header {
     width: 22%;
     float: left;
 }
-input{
-    size: 0px;
-}
+
 
 
 
@@ -118,10 +133,11 @@ input{
     position: relative;
     display:inline-flex;
     height: 285px;
-    margin-left: 166px;
-    margin-top: 35px;
+    margin-left: 118px;
+    margin-right:118px ;
+    padding: 24px;
     border-radius: 25px;
-   
+  
  
 
 
@@ -134,6 +150,15 @@ input{
     margin-left: 2%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+   
+}
+.orderOnline:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
 }
 .dinningOut{
     position: relative;
@@ -143,6 +168,14 @@ input{
     margin-left: 2%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.dinningOut:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
 }
 .proPlus{
     position: relative;
@@ -152,8 +185,16 @@ input{
     margin-left: 2%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
     
     
+}
+.proPlus:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
 }
 .nightLife{
     position: relative;
@@ -163,10 +204,18 @@ input{
     margin-left: 2%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
 
 
 }
+.nightLife:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
 .orderOnline >img{
     width: 100%;
     height: 200px;
@@ -199,12 +248,17 @@ input{
 
 /*------------------------footer Style----------------------------------------*/
 footer {
-    border: solid rgb(30, 12, 98);
+
     width: 100%;
     height: 75px;
+    background-color: #2ecc7130;
 
 }
 
 .footer-copyright{
     text-align: center;
+}
+.footer-wrapper{
+    padding: 14px;
+    font-weight: ;
 }
