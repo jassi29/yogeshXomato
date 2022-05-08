@@ -130,6 +130,7 @@ header {
 
 /*------------------------Menu Option Style----------------------------------------*/
 .MenuOption {
+   text-decoration: none;
     width: 80%;
     position: relative;
     display:inline-flex;
@@ -144,7 +145,6 @@ header {
 
 }
 .orderOnline    {
-    text-decoration: none;
     position: relative;
     width: 100%;
     max-width: 25%;
@@ -219,25 +219,43 @@ header {
 
 }
 
-.orderOnline >img{
+.orderOnline>a >img{
     width: 100%;
     height: 200px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    
 }
-.dinningOut >img{
+.orderOnline>a {
+    text-decoration: none;
+    color: black;
+}
+.dinningOut>a {
+    text-decoration: none;
+    color: black;
+}
+.proPlus>a {
+    text-decoration: none;
+    color: black;
+}
+.nightLife>a {
+    text-decoration: none;
+    color: black;
+}
+
+.dinningOut>a >img{
     height: 200px;
     width: 100%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
-.proPlus > img{
+.proPlus >a> img{
     height: 200px;
     width: 100%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
-.nightLife > img{
+.nightLife > a>img{
     height: 200px;
     width: 100%;
     border-top-left-radius: 25px;
@@ -246,6 +264,7 @@ header {
 
 .Menuh3{
     text-align: center;
+
 }
 
 /*----------------Sample-video-container-------------------------*/

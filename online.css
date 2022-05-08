@@ -1,0 +1,116 @@
+body{
+    margin:auto;
+}
+header {
+  
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+
+}
+.logoLink{
+    width: 0%;
+    text-decoration: none;
+}
+/*------------------------Header Logo Style----------------------------------------*/
+.pageLogo >img{
+   
+    width: 15%;
+    height: 75px;
+    float: left;
+    
+}
+/*------------------------Social Icon Logo Style----------------------------------------*/
+.socialIcon{
+    float: right;
+    text-decoration: none;
+    margin:23px 16px;
+
+}
+/*----------main content--------------*/
+.main-content{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+   
+    margin-top: 5.3%;
+    z-index: -1;
+    
+}
+.filter-container{
+    width: 15%;
+    height: 400px;
+    float: left;
+    border: solid red;
+    margin-left: 2%;
+}
+.card-container{
+    width: 81%;
+    height: auto;
+    float: left;
+ 
+
+}
+.cards   {
+    position: relative;
+    float: left;
+    width: 100%;
+    max-width: 25%;
+    border:outset;
+    margin-left: 7%;
+    margin-top: 2%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+   
+}
+
+.cards :hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.cards >a {
+    text-decoration: none;
+    color: black;
+}
+.cards >a >img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+.Menuh3{
+    text-align: center;
+}
+ 
+
+
+
+
+
+
+
+
+
+/*------------------------footer Style----------------------------------------*/
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: #2ecc7130;
+
+
+}
+
+.footer-copyright{
+    text-align: center;
+}
+.footer-wrapper{
+    padding: 14px;
+    font-weight: bold;
+}
