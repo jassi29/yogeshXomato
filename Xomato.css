@@ -101,27 +101,56 @@ header {
 
 /*--Button and Input Style --*/
 .search-header-text{
-    display: inline-block;
-    width: 100%;
+    display: inline-flex;
+    position: absolute;
+    width: 59%;
     padding-top: 264px;
     height:50px;
 }
 
 .inputText{
-    width: 22%;
+    width: 40%;
     float: left;
-    margin-left: 5%;
-    size: 0px;
+    
 
 }
+.input-field{
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    padding: 7px 84px;
+}
 .search-input{
-    width: 22%;
+    width: 39%;
     float: left;
-    display: inline-flex;
+    margin-left: 3.3%;
+
+    
+}
+#cars{
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 7px 84px;
+    margin-left: 0.1%;
+
 }
 .seach-button{
     width: 22%;
     float: left;
+    border: none;
+    color: white;
+    padding: 7px 37px;
+    text-align: center;
+    text-decoration: none;
+   
+    font-size: 16px;
+    
 }
 
 

@@ -1,0 +1,163 @@
+body{
+    margin:auto;
+}
+header {
+  
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+
+}
+.logoLink{
+    width: 0%;
+    text-decoration: none;
+}
+/*------------------------Header Logo Style----------------------------------------*/
+.pageLogo >img{
+   
+    width: 15%;
+    height: 75px;
+    float: left;
+    
+}
+/*------------------------Social Icon Logo Style----------------------------------------*/
+.socialIcon{
+    float: right;
+    text-decoration: none;
+    margin:23px 16px;
+
+}
+/*----------main content--------------*/
+
+.main-container{
+    width: 80%;
+    height: 430px;
+    background-color: rgb(128 128 128 / 19%);
+    border: outset;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 6%;
+    display: inline-block;
+
+}
+.main-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.inner-container-img{
+    float: left;
+    
+    height: 430px;
+    width:48%; 
+   
+}
+.inner-container-img>img{
+    height: 430px;
+    width:100%;
+    float  : left;
+    
+}
+
+ .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    float: left;
+  }
+  .rating > span:hover:before {
+    content: "\2605";
+    position: absolute;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+  }
+
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .about {
+   height: auto;
+    width:100%;  
+      position:relative;
+     
+      font-size: 20px;
+      font-family: cursive;
+  }
+  .rating1{
+   
+    width: 100%;
+    height:50px;
+  }
+  .info-container-img{
+  float: left;
+  width:48%;
+  }
+  .price{
+    height: auto;
+    width:100%;  
+      position:relative;
+      
+  }
+  button.add{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 37px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+  }
+  button.remove{
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 37px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button.remove:hover{
+    background-color: rgb(77, 41, 6);
+}
+button.add:hover{
+    background-color: rgb(8, 48, 8);
+  
+}
+.buttons{
+    margin-left: 31%;
+    margin-top: 5%;
+    text-decoration: none;
+    border:none;
+    color: white;
+}
+  
+
+
+
+
+
+
+
+/*------------------------footer Style----------------------------------------*/
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: #2ecc7130;
+
+
+}
+
+.footer-copyright{
+    text-align: center;
+}
+.footer-wrapper{
+    padding: 14px;
+    font-weight: bold;
+}

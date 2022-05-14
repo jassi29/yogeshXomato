@@ -43,9 +43,20 @@ header {
     width: 15%;
     height: 400px;
     float: left;
-    border: solid red;
+
     margin-left: 2%;
 }
+.filter>input{
+    font-size: 19px;
+}
+.filter>.inner-filter>select{
+    font-size: 17px;
+    margin:2%;
+}
+
+
+
+
 .card-container{
     width: 81%;
     height: auto;
@@ -53,11 +64,18 @@ header {
  
 
 }
+.button-add-remove{
+    margin-left: 31%;
+}
+.button-add-remove>h3{
+    margin-left: 31%;
+}
 .cards   {
     position: relative;
     float: left;
     width: 100%;
     max-width: 25%;
+    height: auto;
     border:outset;
     margin-left: 7%;
     margin-top: 2%;
